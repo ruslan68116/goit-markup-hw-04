@@ -349,6 +349,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
+  padding-top: 8px;
 }
 .social-icon-item {
   width: 40px;
