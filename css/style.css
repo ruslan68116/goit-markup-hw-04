@@ -433,6 +433,15 @@ img {
 
 /* footer */
 
+.footer-div {
+  display: flex;
+  align-items: baseline;
+  gap: 120px;
+}
+
+.footer-div-logo {
+}
+
 .logo-in-footer {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -460,6 +469,16 @@ img {
 .footer-conteiner {
   background: #2e2f42;
   padding: 100px 0;
+}
+
+.footer-social-p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
 /* page portfolio */
