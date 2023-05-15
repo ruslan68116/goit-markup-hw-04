@@ -422,6 +422,13 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  fill: currentColor;
+}
+
+.client-item-link:hover,
+.client-item-link:focus {
+  border-color: var(--social-link-hover);
+  color: #404bbf;
 }
 
 /* footer */
