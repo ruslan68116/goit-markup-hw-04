@@ -377,9 +377,14 @@ img {
 }
 
 /* section4 */
+
+.company {
+  padding: 120px 0;
+}
+
 .client-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /* padding-top: 120px; */
+  /* padding-bottom: 120px; */
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -397,6 +402,7 @@ img {
   display: flex;
   gap: 24px;
 }
+
 .client-item {
   width: calc((100% - 120px) / 6);
   height: 88px;
@@ -410,6 +416,12 @@ img {
   justify-content: center;
   align-items: center;
   color: #8e8f99;
+}
+
+.client-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* footer */
