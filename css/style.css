@@ -437,10 +437,10 @@ img {
 .footer-div {
   display: flex;
   align-items: baseline;
-  gap: 120px;
 }
 
 .footer-div-logo {
+  margin-right: 120px;
 }
 
 .logo-in-footer {
