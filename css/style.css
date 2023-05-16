@@ -6,6 +6,7 @@
   --studio-color-second: #f4f4fd;
   /* #434455 */
   --social-link-hover: #404bbf;
+  --footer-social-hover: #31d0aa;
 }
 
 body {
@@ -436,10 +437,10 @@ img {
 .footer-div {
   display: flex;
   align-items: baseline;
-  gap: 120px;
 }
 
 .footer-div-logo {
+  gap: 120px;
 }
 
 .logo-in-footer {
@@ -470,6 +471,10 @@ img {
   background: #2e2f42;
   padding: 100px 0;
 }
+/* footer social link */
+
+.footer-social-section {
+}
 
 .footer-social-p {
   font-family: "Roboto";
@@ -480,7 +485,34 @@ img {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
+.footer-social-ul {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.footer-social-li {
+  width: 40px;
+  height: 40px;
+}
 
+.footer-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+
+.footer-social-svg {
+  fill: #f4f4fd;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--footer-social-hover);
+}
 /* page portfolio */
 /* page portfolio */
 /* page portfolio */
